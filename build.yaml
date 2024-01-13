@@ -19,4 +19,6 @@
 ---
 include:
   - board: puchi_ble_v1
-    shield: kimiko-rev2
+    shield: kimiko-rev2_left
+  - board: puchi_ble_v1
+    shield: kimiko-rev2_right
