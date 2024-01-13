@@ -1,0 +1,12 @@
+#include "kimiko.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&gpio0 29 GPIO_ACTIVE_HIGH> // Col 0 from PCB
+        , <&gpio0  2 GPIO_ACTIVE_HIGH> // Col 1 from PCB
+        , <&gpio1 13 GPIO_ACTIVE_HIGH> // Col 2 from PCB
+        , <&gpio0 03 GPIO_ACTIVE_HIGH> // Col 3 from PCB
+        , <&gpio0 28 GPIO_ACTIVE_HIGH> // Col 4 from PCB
+        , <&gpio1 11 GPIO_ACTIVE_HIGH> // Col 5 from PCB
+        ;
+};
