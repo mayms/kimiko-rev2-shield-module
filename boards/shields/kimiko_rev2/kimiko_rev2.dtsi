@@ -3,6 +3,7 @@
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
     };
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <16>;
@@ -20,6 +21,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(5,5) RC(4,5) RC(4,11) RC(5,11
                         RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(0,10) RC(4,9)  RC(4,8) RC(4,7) RC(4,6)
         >;
     };
+
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -30,5 +32,5 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(5,5) RC(4,5) RC(4,11) RC(5,11
                   , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 4 from PCB
                   , <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 5 from PCB
                 ;
-            };
+    };
 };                                     
