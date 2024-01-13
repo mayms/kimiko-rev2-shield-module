@@ -1,5 +1,5 @@
 file_format: "1"
-id: kimiko-rev2
+id: kimiko_rev2
 name: Kimiko
 type: shield
 url: https://keycapsss.com/help/kimiko/buildguide_en#kimiko-build-guide
@@ -7,5 +7,5 @@ requires: [puchi_ble_v1]
 features:
   - keys
 siblings:
-  - kimiko_left
-  - kimiko_right
+  - kimiko_rev2_left
+  - kimiko_rev2_right

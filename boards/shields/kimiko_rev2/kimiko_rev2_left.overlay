@@ -1,4 +1,4 @@
-#include "kimiko.dtsi"
+#include "kimiko_rev2.dtsi"
 
 &kscan0 {
     col-gpios

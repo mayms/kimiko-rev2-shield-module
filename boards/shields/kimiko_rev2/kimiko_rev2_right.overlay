@@ -1,4 +1,4 @@
-#include "kimiko.dtsi"
+#include "kimiko_rev2.dtsi"
 
 &default_transform { // The matrix transform for this board is 8 columns over because the left half is 8 columns wide according to the matrix.
     col-offset = <8>;
