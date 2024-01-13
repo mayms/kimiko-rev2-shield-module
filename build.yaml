@@ -17,3 +17,6 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+include:
+  - board: puchi_ble_v1
+    shield: kimiko-rev2
