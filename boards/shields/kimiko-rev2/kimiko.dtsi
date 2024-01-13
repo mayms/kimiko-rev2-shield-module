@@ -23,12 +23,12 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(5,5) RC(4,5) RC(4,11) RC(5,11
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
-        row-gpios = <&pro_micro &gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 from PCB
-                  , <&pro_micro &gpio0 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 from PCB
-                  , <&pro_micro &gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 from PCB
-                  , <&pro_micro &gpio0  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 from PCB
-                  , <&pro_micro &gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 4 from PCB
-                  , <&pro_micro &gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 5 from PCB
+        row-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 from PCB
+                  , <&gpio0 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 from PCB
+                  , <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 from PCB
+                  , <&gpio0  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 from PCB
+                  , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 4 from PCB
+                  , <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 5 from PCB
                 ;
             };
 };                                     
