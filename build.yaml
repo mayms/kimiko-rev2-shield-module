@@ -22,3 +22,5 @@ include:
     shield: kimiko_rev2_left
   - board: puchi_ble_v1
     shield: kimiko_rev2_right
+  - board: puchi_ble_v1
+    shield: settings_reset
