@@ -1,17 +1,23 @@
 
 if SHIELD_KIMIKO_LEFT
 
-config ZMK_KEYBOARD_NAME
+config CONFIG_ZMK_KEYBOARD_NAME
     default "Kimiko"
 
-config ZMK_SPLIT_ROLE_CENTRAL
+config CONFIG_ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config CONFIG_ZMK_SPLIT
     default y
 
 endif
 
-if SHIELD_KIMIKO_LEFT || SHIELD_KIMIKO_RIGHT
+if SHIELD_KIMIKO_RIGHT
 
-config ZMK_SPLIT
+config CONFIG_ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+config CONFIG_ZMK_SPLIT
     default y
 
 endif
