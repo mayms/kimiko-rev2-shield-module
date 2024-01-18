@@ -1,5 +1,5 @@
 config SHIELD_KIMIKO_LEFT
-    def_bool $(shields_list_contains, kimiko_rev2_left)
+    def_bool $(shields_list_contains,kimiko_rev2_left)
 
 config SHIELD_KIMIKO_RIGHT
-    def_bool $(shields_list_contains, kimiko_rev2_right)
+    def_bool $(shields_list_contains,kimiko_rev2_right)
