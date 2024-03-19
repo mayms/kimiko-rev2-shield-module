@@ -9,11 +9,11 @@
 
         default_layer {
             bindings = <
-&mt TILDE ESC  &mt F1 N1  &mt F2 N2  &mt F3 N3           &mt F4 N4    &mt F5 N5                                                      &mt F6 N6  &mt F7 N7  &mt F8 N8     &mt F9 N9   &mt F10 N0         &mt MINUS EQUAL
-&kp TAB        &kp Q   &kp W   &kp E            &kp R     &kp T                                                       &kp Y   &kp U   &kp I      &kp O    &mt F11 P          &mt RBKT LBKT
-&kp LSHIFT     &kp A   &kp S   &kp D            &kp F     &kp G                                                       &kp H   &kp J   &kp K      &kp L    &mt F12 SEMI       &mt RSHFT APOS
-&kp LCTRL      &kp Z   &kp X   &kp C            &kp V     &kp B     &kp DOWN   &kp UP         &kp LEFT     &kp RIGHT  &kp N   &kp M   &kp COMMA  &kp DOT  &mt BSLH FSLH  &kp RCTRL
-                               &kp PRINTSCREEN  &kp LGUI  &kp LALT  &kp SPACE  &kp BACKSPACE  &mt DEL INS  &kp RET    &tog 1  &tog 2  &none
+&mt TILDE ESC  &mt F1 N1  &mt F2 N2  &mt F3 N3        &mt F4 N4  &mt F5 N5                                                    &mt F6 N6  &mt F7 N7  &mt F8 N8  &mt F9 N9  &mt F10 N0     &mt MINUS EQUAL
+&kp TAB        &kp Q      &kp W      &kp E            &kp R      &kp T                                                        &kp Y      &kp U      &kp I      &kp O      &mt F11 P      &mt RBKT LBKT
+&kp LSHIFT     &kp A      &kp S      &kp D            &kp F      &kp G                                                        &kp H      &kp J      &kp K      &kp L      &mt F12 SEMI   &mt RSHFT APOS
+&kp LCTRL      &kp Z      &kp X      &kp C            &kp V      &kp B      &kp DOWN   &kp UP         &kp LEFT     &kp RIGHT  &kp N      &kp M      &kp COMMA  &kp DOT    &mt BSLH FSLH  &kp RCTRL
+                                     &kp PRINTSCREEN  &kp LGUI   &kp LALT   &kp SPACE  &kp BACKSPACE  &mt DEL INS  &kp RET    &none      &tog 1     &tog 2
             >;
         };
 
