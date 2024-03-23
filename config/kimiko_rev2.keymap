@@ -12,7 +12,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp &kp KP_N0 KP_N1 &kp KP_N3 &kp KP_N2>
+                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N2>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -67,7 +67,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N4>
+                , <&macro_tap     &kp KP_N1 &kp KP_N5 &kp KP_N4>
                 , <&macro_release &kp LALT>
                 ;
         };
