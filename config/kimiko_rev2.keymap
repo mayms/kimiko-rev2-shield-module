@@ -12,7 +12,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N2>
+                , <&macro_tap     &kp KP_N1 &kp KP_N3 &kp KP_N2>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -23,7 +23,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N2>
+                , <&macro_tap     &kp KP_N1 &kp KP_N4 &kp KP_N2>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -34,7 +34,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N8>
+                , <&macro_tap     &kp KP_N1 &kp KP_N4 &kp KP_N8>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -45,7 +45,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N3>
+                , <&macro_tap     &kp KP_N1 &kp KP_N5 &kp KP_N3>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -56,7 +56,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N9>
+                , <&macro_tap     &kp KP_N1 &kp KP_N2 &kp KP_N9>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -77,7 +77,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&ae_lc>, <&ae_uc>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_RSFT)>;
         };
         oe: de_oe {
             compatible = "zmk,behavior-mod-morph";
@@ -130,7 +130,7 @@
 &trans        &ae_lc        &oe_lc        &ue_lc        &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &ae_uc        &oe_uc        &ue_uc        &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &ae           &oe           &ue           &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                          &kp RGUI      &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
