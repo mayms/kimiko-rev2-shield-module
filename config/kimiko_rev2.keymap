@@ -12,7 +12,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N3 &kp KP_N2>
+                , <&macro_tap     &kp &kp KP_N0 KP_N1 &kp KP_N3 &kp KP_N2>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -23,7 +23,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N4 &kp KP_N2>
+                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N2>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -34,7 +34,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N4 &kp KP_N8>
+                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N8>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -45,7 +45,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N5 &kp KP_N3>
+                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N3>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -56,7 +56,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N2 &kp KP_N9>
+                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N9>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -67,7 +67,7 @@
             tap-ms = <40>;
             bindings
                 = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N5 &kp KP_N4>
+                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N4>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -127,9 +127,9 @@
         layer_2 {
             bindings = <
 &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR                                  &trans  &trans  &trans  &trans  &trans  &trans
-&ae_lc        &oe_lc        &ue_lc        &trans        &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-&ae_uc        &oe_uc        &ue_uc        &trans        &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-&ae           &oe           &ue           &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &ae_lc        &oe_lc        &ue_lc        &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &ae_uc        &oe_uc        &ue_uc        &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &ae           &oe           &ue           &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
