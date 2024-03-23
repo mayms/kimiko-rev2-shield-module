@@ -156,7 +156,7 @@
 &kp TAB        &kp Q         &kp W         &kp E            &kp R         &kp T                                                           &kp Y         &td_ue        &kp I         &td_oe        &ht_tp F11 P     &mt RBKT LBKT
 &kp LSHIFT     &td_ae        &kp S         &kp D            &kp F         &kp G                                                           &kp H         &kp J         &kp K         &kp L         &ht_tp F12 SEMI  &mt RSHFT APOS
 &kp LCTRL      &kp Z         &kp X         &kp C            &kp V         &kp B         &kp DOWN   &kp UP         &kp LEFT     &kp RIGHT  &kp N         &kp M         &kp COMMA     &kp DOT       &mt BSLH FSLH    &kp RCTRL
-                                           &kp PRINTSCREEN  &kp LGUI      &kp LALT      &kp SPACE  &kp BACKSPACE  &mt DEL INS  &kp RET    &none         &tog 1        &tog 2
+                                           &kp PRINTSCREEN  &kp LGUI      &kp LALT      &kp SPACE  &kp BACKSPACE  &mt DEL INS  &kp RET    &mt END HOME  &tog 1        &tog 2
             >;
         };
 
