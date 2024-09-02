@@ -13,4 +13,7 @@ if SHIELD_KIMIKO_LEFT || SHIELD_KIMIKO_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_BLE_EXPERIMENTAL_CONN
+    default y
+
 endif
