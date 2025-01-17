@@ -16,4 +16,7 @@ config ZMK_SPLIT
 config ZMK_BLE_EXPERIMENTAL_CONN
     default y
 
+config ZMK_POINTING
+    default y
+
 endif
