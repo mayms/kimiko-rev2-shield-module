@@ -163,11 +163,11 @@
 
         default_layer {
             bindings = <
-&mt TILDE ESC     &ht_tp F1 N1  &ht_tp F2 N2  &ht_tp F3 N3     &ht_tp F4 N4  &ht_tp F5 N5                                                    &ht_tp F6 N6  &ht_tp F7 N7  &ht_tp F8 N8  &ht_tp F9 N9  &ht_tp F10 N0    &mt MINUS EQUAL
-&kp TAB           &kp Q         &kp W         &kp E            &kp R         &kp T                                                           &kp Y         &td_ue        &kp I         &td_oe        &ht_tp F11 P     &mt RBKT LBKT
-&mt LSHIFT GRAVE  &td_ae        &kp S         &kp D            &kp F         &kp G                                                           &kp H         &kp J         &kp K         &kp L         &ht_tp F12 SEMI  &mt RSHFT APOS
-&kp LCTRL         &kp Z         &kp X         &kp C            &kp V         &kp B         &kp DOWN   &kp UP         &ht_tp_msc SCRL_LEFT LEFT     &ht_tp_msc SCRL_RIGHT RIGHT  &kp N         &kp M         &kp COMMA     &kp DOT       &mt BSLH FSLH    &kp RCTRL
-                                              &kp PRINTSCREEN  &kp LGUI      &kp LALT      &kp SPACE  &kp BACKSPACE  &mt DEL INS  &kp RET    &mt END HOME  &tog 1        &tog 2
+&mt TILDE ESC  &ht_tp F1 N1  &ht_tp F2 N2  &ht_tp F3 N3     &ht_tp F4 N4  &ht_tp F5 N5                                                                                        &ht_tp F6 N6  &ht_tp F7 N7  &ht_tp F8 N8  &ht_tp F9 N9  &ht_tp F10 N0    &mt MINUS EQUAL
+&mt GRAVE TAB  &kp Q         &kp W         &kp E            &kp R         &kp T                                                                                               &kp Y         &td_ue        &kp I         &td_oe        &ht_tp F11 P     &mt RBKT LBKT
+&kp LSHIFT     &td_ae        &kp S         &kp D            &kp F         &kp G                                                                                               &kp H         &kp J         &kp K         &kp L         &ht_tp F12 SEMI  &mt RSHFT APOS
+&kp LCTRL      &kp Z         &kp X         &kp C            &kp V         &kp B         &ht_tp_msc SCRL_LEFT DOWN_ARROW  &ht_tp_msc SCRL_RIGHT RIGHT  &kp LEFT     &kp RIGHT  &kp N         &kp M         &kp COMMA     &kp DOT       &mt BSLH FSLH    &kp RCTRL
+                                           &kp PRINTSCREEN  &kp LGUI      &kp LALT      &kp SPACE                        &kp BACKSPACE                &mt DEL INS  &kp RET    &mt END HOME  &tog 1        &tog 2
             >;
         };
 
@@ -183,11 +183,11 @@
 
         layer_2 {
             bindings = <
-&out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &ae_lc        &oe_lc        &ue_lc        &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &ae_uc        &oe_uc        &ue_uc        &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
+&out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &ae_lc        &oe_lc        &ue_lc        &trans        &trans                                                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &ae_uc        &oe_uc        &ue_uc        &trans        &trans                                                       &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &ae           &oe           &ue           &trans        &trans      &trans  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
-                                          &kp RGUI      &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                          &kp RGUI      &trans        &trans      &trans  &trans  &trans          &trans           &trans  &trans  &trans
             >;
         };
     };
