@@ -165,6 +165,11 @@
             bindings = <&tog 3>;
             key-positions = <60 61>;
         };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <28 31>;
+        };
     };
 
     keymap {
@@ -204,9 +209,9 @@
             bindings = <
 &mt TILDE ESC  &ht_tp F1 N1   &ht_tp F2 N2   &ht_tp F3 N3    &ht_tp F4 N4    &ht_tp F5 N5                                                                                              &ht_tp F6 N6      &ht_tp F7 N7    &ht_tp F8 N8    &ht_tp F9 N9   &ht_tp F10 N0     &ht_tp MINUS EQUAL
 &mt GRAVE TAB  &ht_tp F11 Q   &ht_tp F12 W   &kp E           &kp R           &kp T                                                                                                     &kp Y             &td_ue          &kp I           &td_oe         &kp P             &ht_tp RBKT LBKT
-&none          &ht_tp LGUI A  &ht_tp LALT S  &ht_tp LCTRL D  &ht_tp LSHFT F  &kp G                                                                                                     &kp H             &ht_tp RSHFT J  &ht_tp RCTRL K  &ht_tp RALT L  &ht_tp RGUI SEMI  &kp APOS
+&td_ae         &ht_tp LGUI A  &ht_tp LALT S  &ht_tp LCTRL D  &ht_tp LSHFT F  &kp G                                                                                                     &kp H             &ht_tp RSHFT J  &ht_tp RCTRL K  &ht_tp RALT L  &ht_tp RGUI SEMI  &kp APOS
 &none          &kp Z          &kp X          &kp C           &kp V           &kp B         &ht_tp_msc SCRL_LEFT DOWN_ARROW  &ht_tp_msc SCRL_RIGHT UP_ARROW  &none             &none    &kp N             &kp M           &kp COMMA       &kp DOT        &mt BSLH FSLH     &none
-                                             &trans          &none           &kp DELETE    &kp SPACE                        &ht_tp DELETE BACKSPACE         &ht_tp HOME LEFT  &kp RET  &ht_tp END RIGHT  &trans          &trans
+                                             &trans          &none           &kp DELETE    &kp SPACE                        &kp BACKSPACE                   &ht_tp HOME LEFT  &kp RET  &ht_tp END RIGHT  &trans          &trans
             >;
         };
     };
