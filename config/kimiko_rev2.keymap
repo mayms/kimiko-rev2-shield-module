@@ -160,9 +160,10 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
+            flavor = "tap-preferred";
             tapping-term-ms = <150>;
             quick-tap-ms = <0>;
-            flavor = "tap-preferred";
+            require-prior-idle-ms = <250>;
             bindings = <&kp>, <&kp>;
         };
     };
