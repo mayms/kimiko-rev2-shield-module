@@ -176,7 +176,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        hm_rp: homerow_mod_left_positional {
+        hm_rp: homerow_mod_right_positional {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
