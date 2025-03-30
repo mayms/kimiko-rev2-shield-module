@@ -210,7 +210,7 @@
 &mt GRAVE TAB  &ht_tp F11 Q   &ht_tp F12 W   &kp E           &kp R           &kp T                                                                                                       &kp Y             &td_ue          &kp I           &td_oe         &kp P             &ht_tp RBKT LBKT
 &td_ae         &hm_lp LGUI A  &hm_lp LALT S  &hm_lp LCTRL D  &hm_lp LSHFT F  &kp G                                                                                                       &kp H             &hm_rp RSHFT J  &hm_rp RCTRL K  &hm_rp RALT L  &hm_rp RGUI SEMI  &kp APOS
 &none          &kp Z          &kp X          &kp C           &kp V           &kp B         &ht_tp_msc SCRL_LEFT DOWN_ARROW  &ht_tp_msc SCRL_RIGHT UP_ARROW  &none             &kp RSHFT  &kp N             &kp M           &kp COMMA       &kp DOT        &mt BSLH FSLH     &none
-                                             &trans          &none           &kp DELETE    &kp SPACE                        &kp BACKSPACE                   &ht_tp HOME LEFT  &kp RET    &ht_tp END RIGHT  &trans          &trans
+                                             &trans          &none           &kp DELETE    &kp SPACE                        &kp BACKSPACE                   &ht_tp HOME LEFT  &kp RET    &ht_tp END RIGHT  &tog 1          &tog 2
             >;
         };
 
