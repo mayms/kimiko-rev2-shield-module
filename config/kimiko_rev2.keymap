@@ -206,11 +206,11 @@
 
         default_layer {
             bindings = <
-&mt TILDE ESC  &ht_tp F1 N1   &ht_tp F2 N2   &ht_tp F3 N3    &ht_tp F4 N4    &ht_tp F5 N5                                                                                                &ht_tp F6 N6      &ht_tp F7 N7    &ht_tp F8 N8    &ht_tp F9 N9   &ht_tp F10 N0     &mt MINUS EQUAL
-&mt GRAVE TAB  &ht_tp F11 Q   &ht_tp F12 W   &kp E           &kp R           &kp T                                                                                                       &kp Y             &td_ue          &kp I           &td_oe         &kp P             &ht_tp RBKT LBKT
-&td_ae         &hm_lp LGUI A  &hm_lp LALT S  &hm_lp LCTRL D  &hm_lp LSHFT F  &kp G                                                                                                       &kp H             &hm_rp RSHFT J  &hm_rp RCTRL K  &hm_rp RALT L  &hm_rp RGUI SEMI  &kp APOS
-&none          &kp Z          &kp X          &kp C           &kp V           &kp B         &ht_tp_msc SCRL_LEFT DOWN_ARROW  &ht_tp_msc SCRL_RIGHT UP_ARROW  &none             &kp RSHFT  &kp N             &kp M           &kp COMMA       &kp DOT        &mt BSLH FSLH     &none
-                                             &trans          &none           &kp DELETE    &kp SPACE                        &kp BACKSPACE                   &ht_tp HOME LEFT  &kp RET    &ht_tp END RIGHT  &tog 1          &tog 2
+&mt TILDE ESC  &ht_tp F1 N1  &ht_tp F2 N2   &ht_tp F3 N3    &ht_tp F4 N4    &ht_tp F5 N5                                                                                                &ht_tp F6 N6      &ht_tp F7 N7    &ht_tp F8 N8    &ht_tp F9 N9   &ht_tp F10 N0     &mt MINUS EQUAL
+&mt GRAVE TAB  &ht_tp F11 Q  &ht_tp F12 W   &kp E           &kp R           &kp T                                                                                                       &kp Y             &td_ue          &kp I           &td_oe         &kp P             &ht_tp RBKT LBKT
+&kp LEFT_WIN   &td_ae        &hm_lp LALT S  &hm_lp LCTRL D  &hm_lp LSHFT F  &kp G                                                                                                       &kp H             &hm_rp RSHFT J  &hm_rp RCTRL K  &hm_rp RALT L  &hm_rp RGUI SEMI  &kp APOS
+&none          &kp Z         &kp X          &kp C           &kp V           &kp B         &ht_tp_msc SCRL_LEFT DOWN_ARROW  &ht_tp_msc SCRL_RIGHT UP_ARROW  &none             &kp RSHFT  &kp N             &kp M           &kp COMMA       &kp DOT        &mt BSLH FSLH     &none
+                                            &trans          &none           &kp DELETE    &kp SPACE                        &kp BACKSPACE                   &ht_tp HOME LEFT  &kp RET    &ht_tp END RIGHT  &tog 1          &tog 2
             >;
         };
 
